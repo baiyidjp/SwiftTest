@@ -14,6 +14,7 @@
 		A2B68F061DD052EB0001E535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B68F041DD052EB0001E535 /* LaunchScreen.storyboard */; };
 		A2B68F111DD052EB0001E535 /* SwiftTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B68F101DD052EB0001E535 /* SwiftTestTests.swift */; };
 		A2B68F1C1DD052EB0001E535 /* SwiftTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B68F1B1DD052EB0001E535 /* SwiftTestUITests.swift */; };
+		A2B68F2A1DD05B490001E535 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B68F291DD05B490001E535 /* Icon-Small-50.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A24461E91DD0776100AAEBD7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		A2B68EF81DD052EB0001E535 /* SwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B68EFB1DD052EB0001E535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +61,7 @@
 		A2B68F171DD052EB0001E535 /* SwiftTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B68F1B1DD052EB0001E535 /* SwiftTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestUITests.swift; sourceTree = "<group>"; };
 		A2B68F1D1DD052EB0001E535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2B68F291DD05B490001E535 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +112,7 @@
 		A2B68EFA1DD052EB0001E535 /* SwiftTest */ = {
 			isa = PBXGroup;
 			children = (
+				A2B68F291DD05B490001E535 /* Icon-Small-50.png */,
 				A2B68EFB1DD052EB0001E535 /* AppDelegate.swift */,
 				A2B68EFD1DD052EB0001E535 /* ViewController.swift */,
 				A2B68EFF1DD052EB0001E535 /* Main.storyboard */,
@@ -135,6 +151,7 @@
 				A2B68EF41DD052EB0001E535 /* Sources */,
 				A2B68EF51DD052EB0001E535 /* Frameworks */,
 				A2B68EF61DD052EB0001E535 /* Resources */,
+				A24461E91DD0776100AAEBD7 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -193,6 +210,7 @@
 				TargetAttributes = {
 					A2B68EF71DD052EB0001E535 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ST6CBN66AM;
 						ProvisioningStyle = Automatic;
 					};
 					A2B68F0B1DD052EB0001E535 = {
@@ -233,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2B68F061DD052EB0001E535 /* LaunchScreen.storyboard in Resources */,
+				A2B68F2A1DD05B490001E535 /* Icon-Small-50.png in Resources */,
 				A2B68F031DD052EB0001E535 /* Assets.xcassets in Resources */,
 				A2B68F011DD052EB0001E535 /* Main.storyboard in Resources */,
 			);
@@ -411,8 +430,11 @@
 		A2B68F211DD052EB0001E535 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ST6CBN66AM;
 				INFOPLIST_FILE = SwiftTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dong.SwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,8 +445,11 @@
 		A2B68F221DD052EB0001E535 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ST6CBN66AM;
 				INFOPLIST_FILE = SwiftTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dong.SwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +530,7 @@
 				A2B68F221DD052EB0001E535 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2B68F231DD052EB0001E535 /* Build configuration list for PBXNativeTarget "SwiftTestTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +539,7 @@
 				A2B68F251DD052EB0001E535 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2B68F261DD052EB0001E535 /* Build configuration list for PBXNativeTarget "SwiftTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +548,7 @@
 				A2B68F281DD052EB0001E535 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

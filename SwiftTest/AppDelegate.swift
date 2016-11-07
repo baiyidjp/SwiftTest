@@ -8,6 +8,8 @@
 
 import UIKit
 
+// @UIApplicationMain  是整个程序的入口
+// 没有.h.m之分 只有.swift 全局可以调用
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

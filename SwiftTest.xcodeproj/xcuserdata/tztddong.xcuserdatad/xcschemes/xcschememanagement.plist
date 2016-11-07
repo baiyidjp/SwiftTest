@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>calll.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>A24461DD1DD0776100AAEBD7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A2B68EF71DD052EB0001E535</key>
 		<dict>
 			<key>primary</key>
