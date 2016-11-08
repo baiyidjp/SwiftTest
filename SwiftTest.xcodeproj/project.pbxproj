@@ -14,7 +14,7 @@
 		A2B68F061DD052EB0001E535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B68F041DD052EB0001E535 /* LaunchScreen.storyboard */; };
 		A2B68F111DD052EB0001E535 /* SwiftTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B68F101DD052EB0001E535 /* SwiftTestTests.swift */; };
 		A2B68F1C1DD052EB0001E535 /* SwiftTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B68F1B1DD052EB0001E535 /* SwiftTestUITests.swift */; };
-		A2B68F2A1DD05B490001E535 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B68F291DD05B490001E535 /* Icon-Small-50.png */; };
+		A2D9F8331DD1F28C001D56B1 /* SwifttestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9F8321DD1F28C001D56B1 /* SwifttestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +61,7 @@
 		A2B68F171DD052EB0001E535 /* SwiftTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B68F1B1DD052EB0001E535 /* SwiftTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestUITests.swift; sourceTree = "<group>"; };
 		A2B68F1D1DD052EB0001E535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2B68F291DD05B490001E535 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		A2D9F8321DD1F28C001D56B1 /* SwifttestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifttestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +112,9 @@
 		A2B68EFA1DD052EB0001E535 /* SwiftTest */ = {
 			isa = PBXGroup;
 			children = (
-				A2B68F291DD05B490001E535 /* Icon-Small-50.png */,
 				A2B68EFB1DD052EB0001E535 /* AppDelegate.swift */,
 				A2B68EFD1DD052EB0001E535 /* ViewController.swift */,
+				A2D9F8321DD1F28C001D56B1 /* SwifttestViewController.swift */,
 				A2B68EFF1DD052EB0001E535 /* Main.storyboard */,
 				A2B68F021DD052EB0001E535 /* Assets.xcassets */,
 				A2B68F041DD052EB0001E535 /* LaunchScreen.storyboard */,
@@ -251,7 +251,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2B68F061DD052EB0001E535 /* LaunchScreen.storyboard in Resources */,
-				A2B68F2A1DD05B490001E535 /* Icon-Small-50.png in Resources */,
 				A2B68F031DD052EB0001E535 /* Assets.xcassets in Resources */,
 				A2B68F011DD052EB0001E535 /* Main.storyboard in Resources */,
 			);
@@ -280,6 +279,7 @@
 			files = (
 				A2B68EFE1DD052EB0001E535 /* ViewController.swift in Sources */,
 				A2B68EFC1DD052EB0001E535 /* AppDelegate.swift in Sources */,
+				A2D9F8331DD1F28C001D56B1 /* SwifttestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
