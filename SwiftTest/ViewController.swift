@@ -41,7 +41,15 @@ class ViewController: UIViewController {
 //        
 //        print("\(s2.name) \(s2.age) \(s2.num)")
         
-        print(RunPreson.getPropertyList())
+//        print(RunPreson.getPropertyList())
+//        URLViewController.sendURL()
+        
+        let viee = UIView(frame: CGRect(x: 20, y: 120, width: 30, height: 30), backColor: UIColor.blue)
+        view.addSubview(viee)
+        
+        let v2 = UIView(frame: CGRect(x: 60, y: 120, width: 30, height: 30))
+        
+        view.addSubview(v2)
     }
     
 }

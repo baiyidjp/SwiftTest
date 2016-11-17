@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A25899D01DDD4E8500825C57 /* RunPreson.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25899CF1DDD4E8500825C57 /* RunPreson.swift */; };
+		A25899D21DDD56AC00825C57 /* URLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25899D11DDD56AC00825C57 /* URLViewController.swift */; };
 		A2B68EFC1DD052EB0001E535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B68EFB1DD052EB0001E535 /* AppDelegate.swift */; };
 		A2B68EFE1DD052EB0001E535 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B68EFD1DD052EB0001E535 /* ViewController.swift */; };
 		A2B68F011DD052EB0001E535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B68EFF1DD052EB0001E535 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 		A2B68F111DD052EB0001E535 /* SwiftTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B68F101DD052EB0001E535 /* SwiftTestTests.swift */; };
 		A2B68F1C1DD052EB0001E535 /* SwiftTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B68F1B1DD052EB0001E535 /* SwiftTestUITests.swift */; };
 		A2D9F8331DD1F28C001D56B1 /* SwifttestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9F8321DD1F28C001D56B1 /* SwifttestViewController.swift */; };
+		A2DEB6961DDD820700905FC9 /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DEB6951DDD820700905FC9 /* UIView+extension.swift */; };
 		A2E548871DD2CF9100E5F227 /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E548861DD2CF9100E5F227 /* BaseUIViewController.swift */; };
 		A2FC28D91DDAB9AE00827DBC /* FuncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC28D81DDAB9AE00827DBC /* FuncViewController.swift */; };
 		A2FC28DB1DDAC59800827DBC /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC28DA1DDAC59800827DBC /* AddViewController.swift */; };
@@ -57,6 +59,7 @@
 
 /* Begin PBXFileReference section */
 		A25899CF1DDD4E8500825C57 /* RunPreson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunPreson.swift; sourceTree = "<group>"; };
+		A25899D11DDD56AC00825C57 /* URLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLViewController.swift; sourceTree = "<group>"; };
 		A2B68EF81DD052EB0001E535 /* SwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B68EFB1DD052EB0001E535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2B68EFD1DD052EB0001E535 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +74,7 @@
 		A2B68F1B1DD052EB0001E535 /* SwiftTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestUITests.swift; sourceTree = "<group>"; };
 		A2B68F1D1DD052EB0001E535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2D9F8321DD1F28C001D56B1 /* SwifttestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifttestViewController.swift; sourceTree = "<group>"; };
+		A2DEB6951DDD820700905FC9 /* UIView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
 		A2E548861DD2CF9100E5F227 /* BaseUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIViewController.swift; sourceTree = "<group>"; };
 		A2FC28D81DDAB9AE00827DBC /* FuncViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuncViewController.swift; sourceTree = "<group>"; };
 		A2FC28DA1DDAC59800827DBC /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
@@ -134,11 +138,13 @@
 				A2E548861DD2CF9100E5F227 /* BaseUIViewController.swift */,
 				A2FC28D81DDAB9AE00827DBC /* FuncViewController.swift */,
 				A2FC28DA1DDAC59800827DBC /* AddViewController.swift */,
+				A25899D11DDD56AC00825C57 /* URLViewController.swift */,
 				A2FC28DC1DDAE23600827DBC /* Person.swift */,
 				A2FC28DE1DDAE6B900827DBC /* Student.swift */,
 				A2FC28E01DDAF00500827DBC /* PersonD.swift */,
 				A2FC28E21DDAF5A000827DBC /* StudentD.swift */,
 				A25899CF1DDD4E8500825C57 /* RunPreson.swift */,
+				A2DEB6951DDD820700905FC9 /* UIView+extension.swift */,
 				A2B68EFF1DD052EB0001E535 /* Main.storyboard */,
 				A2B68F021DD052EB0001E535 /* Assets.xcassets */,
 				A2B68F041DD052EB0001E535 /* LaunchScreen.storyboard */,
@@ -305,6 +311,8 @@
 				A2E548871DD2CF9100E5F227 /* BaseUIViewController.swift in Sources */,
 				A2FC28E31DDAF5A000827DBC /* StudentD.swift in Sources */,
 				A2FC28DB1DDAC59800827DBC /* AddViewController.swift in Sources */,
+				A2DEB6961DDD820700905FC9 /* UIView+extension.swift in Sources */,
+				A25899D21DDD56AC00825C57 /* URLViewController.swift in Sources */,
 				A2FC28E11DDAF00500827DBC /* PersonD.swift in Sources */,
 				A2B68EFC1DD052EB0001E535 /* AppDelegate.swift in Sources */,
 				A2FC28DD1DDAE23600827DBC /* Person.swift in Sources */,
