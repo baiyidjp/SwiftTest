@@ -117,10 +117,10 @@ class ListTableViewController: UITableViewController {
             }
         } else{
             
-            // 加号跳转
-            vc.completionCallBack = {
+            // 加号跳转  [weak vc]防止循环引用
+            vc.completionCallBack = { [weak vc] in
                 
-                guard let p = vc.detailPerson else {
+                guard let p = vc?.detailPerson else {
                     return
                 }
                 
