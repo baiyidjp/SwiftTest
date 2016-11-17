@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A25899D01DDD4E8500825C57 /* RunPreson.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25899CF1DDD4E8500825C57 /* RunPreson.swift */; };
 		A2B68EFC1DD052EB0001E535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B68EFB1DD052EB0001E535 /* AppDelegate.swift */; };
 		A2B68EFE1DD052EB0001E535 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B68EFD1DD052EB0001E535 /* ViewController.swift */; };
 		A2B68F011DD052EB0001E535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B68EFF1DD052EB0001E535 /* Main.storyboard */; };
@@ -18,6 +19,10 @@
 		A2E548871DD2CF9100E5F227 /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E548861DD2CF9100E5F227 /* BaseUIViewController.swift */; };
 		A2FC28D91DDAB9AE00827DBC /* FuncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC28D81DDAB9AE00827DBC /* FuncViewController.swift */; };
 		A2FC28DB1DDAC59800827DBC /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC28DA1DDAC59800827DBC /* AddViewController.swift */; };
+		A2FC28DD1DDAE23600827DBC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC28DC1DDAE23600827DBC /* Person.swift */; };
+		A2FC28DF1DDAE6B900827DBC /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC28DE1DDAE6B900827DBC /* Student.swift */; };
+		A2FC28E11DDAF00500827DBC /* PersonD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC28E01DDAF00500827DBC /* PersonD.swift */; };
+		A2FC28E31DDAF5A000827DBC /* StudentD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC28E21DDAF5A000827DBC /* StudentD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A25899CF1DDD4E8500825C57 /* RunPreson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunPreson.swift; sourceTree = "<group>"; };
 		A2B68EF81DD052EB0001E535 /* SwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B68EFB1DD052EB0001E535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2B68EFD1DD052EB0001E535 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +74,10 @@
 		A2E548861DD2CF9100E5F227 /* BaseUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIViewController.swift; sourceTree = "<group>"; };
 		A2FC28D81DDAB9AE00827DBC /* FuncViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuncViewController.swift; sourceTree = "<group>"; };
 		A2FC28DA1DDAC59800827DBC /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		A2FC28DC1DDAE23600827DBC /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		A2FC28DE1DDAE6B900827DBC /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		A2FC28E01DDAF00500827DBC /* PersonD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonD.swift; sourceTree = "<group>"; };
+		A2FC28E21DDAF5A000827DBC /* StudentD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +134,11 @@
 				A2E548861DD2CF9100E5F227 /* BaseUIViewController.swift */,
 				A2FC28D81DDAB9AE00827DBC /* FuncViewController.swift */,
 				A2FC28DA1DDAC59800827DBC /* AddViewController.swift */,
+				A2FC28DC1DDAE23600827DBC /* Person.swift */,
+				A2FC28DE1DDAE6B900827DBC /* Student.swift */,
+				A2FC28E01DDAF00500827DBC /* PersonD.swift */,
+				A2FC28E21DDAF5A000827DBC /* StudentD.swift */,
+				A25899CF1DDD4E8500825C57 /* RunPreson.swift */,
 				A2B68EFF1DD052EB0001E535 /* Main.storyboard */,
 				A2B68F021DD052EB0001E535 /* Assets.xcassets */,
 				A2B68F041DD052EB0001E535 /* LaunchScreen.storyboard */,
@@ -288,10 +303,15 @@
 			files = (
 				A2B68EFE1DD052EB0001E535 /* ViewController.swift in Sources */,
 				A2E548871DD2CF9100E5F227 /* BaseUIViewController.swift in Sources */,
+				A2FC28E31DDAF5A000827DBC /* StudentD.swift in Sources */,
 				A2FC28DB1DDAC59800827DBC /* AddViewController.swift in Sources */,
+				A2FC28E11DDAF00500827DBC /* PersonD.swift in Sources */,
 				A2B68EFC1DD052EB0001E535 /* AppDelegate.swift in Sources */,
+				A2FC28DD1DDAE23600827DBC /* Person.swift in Sources */,
 				A2D9F8331DD1F28C001D56B1 /* SwifttestViewController.swift in Sources */,
+				A25899D01DDD4E8500825C57 /* RunPreson.swift in Sources */,
 				A2FC28D91DDAB9AE00827DBC /* FuncViewController.swift in Sources */,
+				A2FC28DF1DDAE6B900827DBC /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
