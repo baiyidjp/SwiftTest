@@ -18,6 +18,9 @@
 		A2B68F1C1DD052EB0001E535 /* SwiftTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B68F1B1DD052EB0001E535 /* SwiftTestUITests.swift */; };
 		A2D9F8331DD1F28C001D56B1 /* SwifttestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9F8321DD1F28C001D56B1 /* SwifttestViewController.swift */; };
 		A2DEB6961DDD820700905FC9 /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DEB6951DDD820700905FC9 /* UIView+extension.swift */; };
+		A2DEB6981DDD982900905FC9 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DEB6971DDD982900905FC9 /* ListTableViewController.swift */; };
+		A2DEB69A1DDD983300905FC9 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DEB6991DDD983300905FC9 /* DetailTableViewController.swift */; };
+		A2DEB69C1DDD990000905FC9 /* PersonListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DEB69B1DDD990000905FC9 /* PersonListModel.swift */; };
 		A2E548871DD2CF9100E5F227 /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E548861DD2CF9100E5F227 /* BaseUIViewController.swift */; };
 		A2FC28D91DDAB9AE00827DBC /* FuncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC28D81DDAB9AE00827DBC /* FuncViewController.swift */; };
 		A2FC28DB1DDAC59800827DBC /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC28DA1DDAC59800827DBC /* AddViewController.swift */; };
@@ -75,6 +78,9 @@
 		A2B68F1D1DD052EB0001E535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2D9F8321DD1F28C001D56B1 /* SwifttestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifttestViewController.swift; sourceTree = "<group>"; };
 		A2DEB6951DDD820700905FC9 /* UIView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
+		A2DEB6971DDD982900905FC9 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		A2DEB6991DDD983300905FC9 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		A2DEB69B1DDD990000905FC9 /* PersonListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonListModel.swift; sourceTree = "<group>"; };
 		A2E548861DD2CF9100E5F227 /* BaseUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIViewController.swift; sourceTree = "<group>"; };
 		A2FC28D81DDAB9AE00827DBC /* FuncViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuncViewController.swift; sourceTree = "<group>"; };
 		A2FC28DA1DDAC59800827DBC /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +151,9 @@
 				A2FC28E21DDAF5A000827DBC /* StudentD.swift */,
 				A25899CF1DDD4E8500825C57 /* RunPreson.swift */,
 				A2DEB6951DDD820700905FC9 /* UIView+extension.swift */,
+				A2DEB6971DDD982900905FC9 /* ListTableViewController.swift */,
+				A2DEB6991DDD983300905FC9 /* DetailTableViewController.swift */,
+				A2DEB69B1DDD990000905FC9 /* PersonListModel.swift */,
 				A2B68EFF1DD052EB0001E535 /* Main.storyboard */,
 				A2B68F021DD052EB0001E535 /* Assets.xcassets */,
 				A2B68F041DD052EB0001E535 /* LaunchScreen.storyboard */,
@@ -311,8 +320,10 @@
 				A2E548871DD2CF9100E5F227 /* BaseUIViewController.swift in Sources */,
 				A2FC28E31DDAF5A000827DBC /* StudentD.swift in Sources */,
 				A2FC28DB1DDAC59800827DBC /* AddViewController.swift in Sources */,
+				A2DEB69C1DDD990000905FC9 /* PersonListModel.swift in Sources */,
 				A2DEB6961DDD820700905FC9 /* UIView+extension.swift in Sources */,
 				A25899D21DDD56AC00825C57 /* URLViewController.swift in Sources */,
+				A2DEB69A1DDD983300905FC9 /* DetailTableViewController.swift in Sources */,
 				A2FC28E11DDAF00500827DBC /* PersonD.swift in Sources */,
 				A2B68EFC1DD052EB0001E535 /* AppDelegate.swift in Sources */,
 				A2FC28DD1DDAE23600827DBC /* Person.swift in Sources */,
@@ -320,6 +331,7 @@
 				A25899D01DDD4E8500825C57 /* RunPreson.swift in Sources */,
 				A2FC28D91DDAB9AE00827DBC /* FuncViewController.swift in Sources */,
 				A2FC28DF1DDAE6B900827DBC /* Student.swift in Sources */,
+				A2DEB6981DDD982900905FC9 /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
