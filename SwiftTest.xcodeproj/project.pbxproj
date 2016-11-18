@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A228A0ED1DDEE41900F20EA0 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A228A0EC1DDEE41900F20EA0 /* Bundle+Extension.swift */; };
 		A25899D01DDD4E8500825C57 /* RunPreson.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25899CF1DDD4E8500825C57 /* RunPreson.swift */; };
 		A25899D21DDD56AC00825C57 /* URLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25899D11DDD56AC00825C57 /* URLViewController.swift */; };
 		A2B68EFC1DD052EB0001E535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B68EFB1DD052EB0001E535 /* AppDelegate.swift */; };
@@ -61,6 +62,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A228A0EC1DDEE41900F20EA0 /* Bundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 		A25899CF1DDD4E8500825C57 /* RunPreson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunPreson.swift; sourceTree = "<group>"; };
 		A25899D11DDD56AC00825C57 /* URLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLViewController.swift; sourceTree = "<group>"; };
 		A2B68EF81DD052EB0001E535 /* SwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,6 +156,7 @@
 				A2DEB6971DDD982900905FC9 /* ListTableViewController.swift */,
 				A2DEB6991DDD983300905FC9 /* DetailTableViewController.swift */,
 				A2DEB69B1DDD990000905FC9 /* PersonListModel.swift */,
+				A228A0EC1DDEE41900F20EA0 /* Bundle+Extension.swift */,
 				A2B68EFF1DD052EB0001E535 /* Main.storyboard */,
 				A2B68F021DD052EB0001E535 /* Assets.xcassets */,
 				A2B68F041DD052EB0001E535 /* LaunchScreen.storyboard */,
@@ -317,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2B68EFE1DD052EB0001E535 /* ViewController.swift in Sources */,
+				A228A0ED1DDEE41900F20EA0 /* Bundle+Extension.swift in Sources */,
 				A2E548871DD2CF9100E5F227 /* BaseUIViewController.swift in Sources */,
 				A2FC28E31DDAF5A000827DBC /* StudentD.swift in Sources */,
 				A2FC28DB1DDAC59800827DBC /* AddViewController.swift in Sources */,

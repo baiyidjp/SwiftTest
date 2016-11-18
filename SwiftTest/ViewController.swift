@@ -1,3 +1,4 @@
+
 //
 //  ViewController.swift
 //  SwiftTest
@@ -11,6 +12,10 @@ import UIKit
 /// 在swift中 在同一个项目中(默认在同一个命名空间) 所有的的类都是共享的 不需要 import  所有对象的 属性var 也可以访问
 class ViewController: UIViewController {
     
+    //懒加载的写法
+    private lazy var lanjiaLable: UILabel? = UILabel()
+    
+    private lazy var person = RunPreson()
     
     //MARK: -视图加载
     
@@ -18,6 +23,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        view.backgroundColor = UIColor.purple
         
         // 实例化 person
         // () 代表OC中的 alloc init
@@ -44,12 +51,22 @@ class ViewController: UIViewController {
 //        print(RunPreson.getPropertyList())
 //        URLViewController.sendURL()
         
-        let viee = UIView(frame: CGRect(x: 20, y: 120, width: 30, height: 30), backColor: UIColor.blue)
-        view.addSubview(viee)
+//        let viee = UIView(frame: CGRect(x: 20, y: 120, width: 30, height: 30), backColor: UIColor.blue)
+//        view.addSubview(viee)
+//        
+//        let v2 = UIView(frame: CGRect(x: 60, y: 120, width: 30, height: 30))
+//        
+//        view.addSubview(v2)
         
-        let v2 = UIView(frame: CGRect(x: 60, y: 120, width: 30, height: 30))
+        lanjiaLable?.text = "懒加载"
+        lanjiaLable?.sizeToFit()
+        lanjiaLable?.center = view.center
+        view.addSubview(lanjiaLable!)
+        print(lanjiaLable!)
         
-        view.addSubview(v2)
+        //swift中懒加载只会在第一个使用的时候进行创建 不要主动清理视图 否则再次调用变为nil
+//        print(lanjiaLable ?? <#default value#>)
+        
     }
     
 }

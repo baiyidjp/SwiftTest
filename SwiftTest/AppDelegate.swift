@@ -11,13 +11,45 @@ import UIKit
 // @UIApplicationMain  是整个程序的入口
 // 没有.h.m之分 只有.swift 全局可以调用
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate {  //崩溃到这个地方 都是OC的问题
 
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //实例化window
+        window = UIWindow()
+        
+        //输出 info.plist 的内容
+        print(Bundle.main.infoDictionary ?? [])
+        
+//        let bundleName = Bundle.main.infoDictionary?["CFBundleName"] as? String ?? ""
+        
+//        let className = bundleName + "." + "ViewController"
+        
+        //模仿OC一键式传值
+//        let className = Bundle.main.nameSpace(className: "ViewController")
+        
+        //使用计算属性拿值
+        let className = Bundle.main.namespace + "." + "ViewController"
+        
+        
+        //添加命名空间  默认就是项目名称 最好不要有数字和特殊字符
+//        let className = "SwiftTest.ViewController"
+        
+        // cls ->  AnyClass? 类型 转换成ViewController
+        let cls = NSClassFromString(className) as? UIViewController.Type
+        
+        let vc = cls?.init()
+        
+        
+//        let vc = ViewController()
+        
+        window?.rootViewController = vc
+        
+        window?.makeKeyAndVisible()
+        
         return true
     }
 
